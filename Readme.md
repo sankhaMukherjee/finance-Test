@@ -62,5 +62,5 @@ zipline run -f dual_moving_average.py --capital-base 500 --bundle quantopian-qua
 
 ## Understanding results
 
-An example of using these results is shown in [this Notebook](https://github.com/sankhaMukherjee/finance-Test/blob/master/Plot%20results%20of%20a%20particular%20zipline%20output.ipynb)
- [here](./Plot%20results%20of%20a%20particular%20zipline%20output.ipynb).
+An example of using these results is shown in [this Notebook](./Plot%20results%20of%20a%20particular%20zipline%20output.ipynb)
+ .
