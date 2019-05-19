@@ -50,3 +50,17 @@ This is something that a lot of people forget to do
 source env/bin/activate.fish
 ```
 
+## Run a python scripy using zipline: 
+
+An example of running a backtesting algorithm using Zipline 
+is shown below. Use this to generate a pickle file containing
+the results of the backtest. 
+
+```bash
+zipline run -f dual_moving_average.py --capital-base 500 --bundle quantopian-quandl -s 2016-01-01 -e 2017-01-01 -o test.pickle
+```
+
+## Understanding results
+
+An example of using these results is shown in [this Notebook](https://github.com/sankhaMukherjee/finance-Test/blob/master/Plot%20results%20of%20a%20particular%20zipline%20output.ipynb)
+ [here](./Plot%20results%20of%20a%20particular%20zipline%20output.ipynb).
